@@ -15,9 +15,15 @@
     <script src="js/wow.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/front.js"></script>
+    <style id='global-styles-inline-css' type='text/css'>
+        body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+        .wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+        :where(.wp-block-columns.is-layout-flex){gap: 2em;}
+        .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+        </style>
 </head>
 <body>
-    <div class="main">
+    <div class="main scroll-container">
         <div class="container">
             <header class="header">
                 <div class="header-wrap">
@@ -31,209 +37,209 @@
                             </a>
                         </div>
                     </div>
-                    <ul class="header-list">
-                        <li class="header-item">
-                            <a href="about.html">회사소개</a>
-                        </li>
-                        <li class="header-item">
-                            <a href="brand.html">브랜딩 블로그</a>
-                        </li>
-                        <li class="header-item">
-                            <a href="youtube.html">유튜브 영상제작</a>
-                        </li>
-                        <li class="header-item">
-                            <a href="column.html">마케팅 칼럼</a>
-                        </li>
-                        <li class="header-item">
-                            <a href="inquiry.html">문의하기</a>
-                        </li>
-                    </ul>
+                    <nav class="nav">
+                        <div class="mb-menu">
+                            <img class="menu-ico01 menu-ico" src="img/menu-ico01.png" alt="">
+                            <img class="menu-ico02 menu-ico" src="img/menu-ico02.png" alt="">
+                        </div>
+                        <ul class="header-list">
+                            <li class="header-item">
+                                <a href="about.html">회사소개</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="brand.html">브랜딩 블로그</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="youtube.html">유튜브 영상제작</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="column.html">마케팅 칼럼</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="inquiry.html">문의하기</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                    
                 </div>
                 
             </header>
-            <section class="sub-sec01 sub_visual">
-                <div class="sub-sec01-wrap">
-                    <h2>회사소개</h2>
-                </div>
-            </section>
-            <section class="column-wrap">
-                <div class="column-box">
-                    <div class="marketing-tit">
-                        <h3>블로그 마케팅</h3>
+          <section class="about-sec01 about-sec">
+                <div class="about-sec01-wrap">
+                    <div class="about-sec01-txt">
+                        <h3>여긴 뭐야?</h3>
+                        <h2>“어떻게 그렇게 빠르게 <br>
+                            마케팅 회사를 성장시키냐?”
+                        </h2>
+                        <p>이런 질문을 듣곤 합니다</p>
                     </div>
-                    <ul class="column-list">
-                        <li class="column-item">
-                            <a href="#">
-                                <div class="column-item-box">
-                                    <div class="column-item-img">
-                                        <img src="img/column01-img.jpg" alt="">
-                                    </div>
-                                    <div class="column-item-txt">
-                                        <h3>제목이들어감</h3>
-                                        <p>내용이 살짝 들어감</p>
-                                        <p>2023-06-11</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="column-item">
-                            <a href="#">
-                                <div class="column-item-box">
-                                    <div class="column-item-img">
-                                        <img src="img/column01-img.jpg" alt="">
-                                    </div>
-                                    <div class="column-item-txt">
-                                        <h3>제목이들어감</h3>
-                                        <p>내용이 살짝 들어감</p>
-                                        <p>2023-06-11</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="column-item">
-                            <a href="#">
-                                <div class="column-item-box">
-                                    <div class="column-item-img">
-                                        <img src="img/column01-img.jpg" alt="">
-                                    </div>
-                                    <div class="column-item-txt">
-                                        <h3>제목이들어감</h3>
-                                        <p>내용이 살짝 들어감</p>
-                                        <p>2023-06-11</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="column-item">
-                            <a href="#">
-                                <div class="column-item-box">
-                                    <div class="column-item-img">
-                                        <img src="img/column01-img.jpg" alt="">
-                                    </div>
-                                    <div class="column-item-txt">
-                                        <h3>제목이들어감</h3>
-                                        <p>내용이 살짝 들어감</p>
-                                        <p>2023-06-11</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="column-item">
-                            <a href="#">
-                                <div class="column-item-box">
-                                    <div class="column-item-img">
-                                        <img src="img/column01-img.jpg" alt="">
-                                    </div>
-                                    <div class="column-item-txt">
-                                        <h3>제목이들어감</h3>
-                                        <p>내용이 살짝 들어감</p>
-                                        <p>2023-06-11</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="column-item">
-                            <a href="#">
-                                <div class="column-item-box">
-                                    <div class="column-item-img">
-                                        <img src="img/column01-img.jpg" alt="">
-                                    </div>
-                                    <div class="column-item-txt">
-                                        <h3>제목이들어감</h3>
-                                        <p>내용이 살짝 들어감</p>
-                                        <p>2023-06-11</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="column-item">
-                            <a href="#">
-                                <div class="column-item-box">
-                                    <div class="column-item-img">
-                                        <img src="img/column01-img.jpg" alt="">
-                                    </div>
-                                    <div class="column-item-txt">
-                                        <h3>제목이들어감</h3>
-                                        <p>내용이 살짝 들어감</p>
-                                        <p>2023-06-11</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="column-item">
-                            <a href="#">
-                                <div class="column-item-box">
-                                    <div class="column-item-img">
-                                        <img src="img/column01-img.jpg" alt="">
-                                    </div>
-                                    <div class="column-item-txt">
-                                        <h3>제목이들어감</h3>
-                                        <p>내용이 살짝 들어감</p>
-                                        <p>2023-06-11</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="column-item">
-                            <a href="#">
-                                <div class="column-item-box">
-                                    <div class="column-item-img">
-                                        <img src="img/column01-img.jpg" alt="">
-                                    </div>
-                                    <div class="column-item-txt">
-                                        <h3>제목이들어감</h3>
-                                        <p>내용이 살짝 들어감</p>
-                                        <p>2023-06-11</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="column-item">
-                            <a href="#">
-                                <div class="column-item-box">
-                                    <div class="column-item-img">
-                                        <img src="img/column01-img.jpg" alt="">
-                                    </div>
-                                    <div class="column-item-txt">
-                                        <h3>제목이들어감</h3>
-                                        <p>내용이 살짝 들어감</p>
-                                        <p>2023-06-11</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="column-item">
-                            <a href="#">
-                                <div class="column-item-box">
-                                    <div class="column-item-img">
-                                        <img src="img/column01-img.jpg" alt="">
-                                    </div>
-                                    <div class="column-item-txt">
-                                        <h3>제목이들어감</h3>
-                                        <p>내용이 살짝 들어감</p>
-                                        <p>2023-06-11</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="column-item">
-                            <a href="#">
-                                <div class="column-item-box">
-                                    <div class="column-item-img">
-                                        <img src="img/column01-img.jpg" alt="">
-                                    </div>
-                                    <div class="column-item-txt">
-                                        <h3>제목이들어감</h3>
-                                        <p>내용이 살짝 들어감</p>
-                                        <p>2023-06-11</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
+                    <a class="go-page" href="#about-sec02">비결이 궁금하다면?</a>
                 </div>
-            </section>
+          </section>
+          <section id="about-sec02" class="about-sec02 about-sec">
+            <div class="about-sec02-wrap">
+                <div class="about-sec02-tit">
+                <p>저는 이렇게 답합니다.</p>
+                <p> <strong>"마케팅 회사를 찾는 사업자들의 마음을 너무 잘 압니다. <br>
+                        저도 클라이언트와 똑같은 입장이었던 적이 있기 때문입니다"
+                </strong></p>
+            </div>
+                <div class="about-sec02-img">
+                    <img src="img/about-sec02-img.jpg" alt="">
+                </div>
+                <div class="about-txt-box">
+                    <h3> <strong> 잠시 제 옛날 이야기를 해볼까 합니다. </strong></h3>
+                    <p>저는 5년 전까지, 월 5천만원 정도 버는 사업자였습니다. <br>
+                        아트라상이라는 사업을 운영하고 있었습니다. 저희의 기술력은 최고라 생각했고,<br>
+                        그 전까지는 제가 직접 블로그 마케팅을 했습니다.<br>
+                        어느정도 벌이가 좋았기 때문에, 어느 시점부터는 '마케팅 대행사'에 맡기는 것이 좋다고 생각했습니다.<br>
+                        <br>
+                    </p>
+                    <p><strong> 하지만 그들의 실력에 충격을 받았습니다.</strong><br>
+                        마케팅 대행사를 보면서 답답했습니다.</p>
+                </div>
+                <div class="about-txt-box02">
+                    <p><strong>어떻게 우리 사업도 이해 못 하는 사람이 담당자가 될 수 있을까?</strong></p>
+                        <p>우리 사업에 맞는 마케팅전략을 추천해 주면 돈을 얼마든지 쓸텐데, 왜 제안을 못 하지?</p>
+                        <p> <strong>왜 마케터가 노출량에만 집착할까? 구매로 이어질 수 있는 컨텐츠가 더 중요할텐데...</strong></p>
+                </div>
+            </div>
+      </section>
+      <section class="about-sec03 about-sec">
+        <div class="about-sec03-wrap">
+        <h3>어느순간 깨달았습니다.</h3>
+        <p>온라인마케팅 대행사의 연봉은 매우 낮았습니다. <br>
+            담당자가 사업자인 저보다 마케팅을 잘 할 확률이 없었습니다.</p>
+           
+        <p>이렇게 생각했습니다.</p>
         
+        <p>각 사업에 맞는 맞춤형 마케팅을 하는 온라인 마케팅 회사가 있었으면 좋겠다는게<br>
+            저의 바람이었습니다.<br>
+            이뿐만 아니라 불편한 점이 많았습니다.</p>
+            <br>
+        <p>그 당시 웹사이트 제작 회사를 찾는게 너무 어려웠고,
+            저가형의 효율 좋은 영상 제작을 하는 회사도 찾기 어려웠습니다.</p>
+            <br>
+            <p class="background-txt background-txt01">
+                <img src="img/about-background-txt02.png" alt="">
+            </p>
+            <p class="background-txt background-txt02">
+                <img src="img/about-background-txt01.png" alt="">
+            </p>
+            
+        </div>
+      </section>
+      <section class="about-sec04 about-sec">
+        <div class="about-sec04-wrap">
+            <h3>2018년, 처음부터 순탄했던건 아닙니다.</h3>
+            <p>인사 문제도 있었고, 마케팅 대행만으로 순수익이 높은 사업이 아니었습니다. <br>
+                <br>
+                하지만 하나씩 문제를 해결해 나가기 시작했고, <strong>이득을 몇 배로 돌려줄 수 있는 마케팅 회사</strong>로 발돋움 했습니다.</p>
+                <br>
+            <p>결정적인 이유는 <strong>자청</strong>이라는 <strong>유튜브 채널</strong>을 <strong>운영</strong>했고, 이를 본 <strong>20대 수많은 젊은 인재들이 이상한마케팅에 지원을 했습니다.</strong><br>
+                <strong class="under-line">그 덕분에 그 어떤 마케팅 회사보다 인재들을 끌어모을 수 있었습니다.</strong></p>
+                <br>
+            <p>이들은 입사 2년이면 대기업 10년차 연봉 대우를 받을만큼 성장을 크게 하는 사람들입니다.<br>
+                이들이 종종 야근을 하는데, 그 이유는 회사에서 입지가 좁아져서가 아닙니다.<br>
+                <strong>클라이언트에 대한 책임감 단 하나 때문에 야근을 하는 사람들입니다.</strong></p>
+                <br>
+            <p>자랑스러운 저희 구성원들입니다.</p>
+            <div class="about-video-wrap">
+                <div class="video-box">
+                    <iframe src="https://www.youtube.com/embed/klLyPuxAlac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video-box">
+                    <iframe  src="https://www.youtube.com/embed/xeg_IF3ufAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                
+            </div>
+            <div class="video-txt">
+                <p>갑자기 식구 자랑을 해버렸네요. 이상한마케팅에 오신 것을 환영합니다. <br>
+                    <strong> 이곳에 의뢰하지 않으셔도 좋습니다.</strong><br>
+                    <strong class="under-line">저희 유튜브, 칼럼, 운영 방식 등을 보시면서 1%라도 사업에 도움이 되셨으면 합니다. </strong></p>
+            </div>
+            <div class="about-pdf">
+                <div class="pdf-txt">
+                    <h4>직원관리 PDF</h4>
+                    <p>직원관리에 애를 먹는 대표님은 꼭 봐주세요!</p>
+                </div>
+                <div class="pdf-file">
+                    <a href="#">PDF 다운받기</a>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="about-sec05 about-sec">
+            <div class="sec07-wrap">
+                <h3>서비스 소개</h3>
+                <h1>어떤 서비스가 필요하세요?</h1>
+                <ul class="sec07-list">
+                    <li class="sec07-item">
+                        <a href="#">
+                            <div class="pic">
+                                <div class="pic-img">
+                                    <img src="img/sec07-item01.jpg" alt="">
+                                </div>
+                               <div class="pic-txt">
+                                <strong>전문직 마케팅</strong>
+                                <p>효과 없으면 환불하는 이상한 곳,<br>
+                                    <strong>국내 1위 전문직 마케팅 회사</strong>
+                                </p>
+                               </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sec07-item">
+                        <a href="#">
+                            <div class="pic">
+                                <div class="pic-img">
+                                    <img src="img/sec07-item02.jpg" alt="">
+                                </div>
+                               <div class="pic-txt">
+                                <strong>사업자 마케팅</strong>
+                                <p><strong>성공사례</strong>가 셀 수 없이 많네요. <br>
+                                    보여드릴까요?
+                                </p>
+                               </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sec07-item">
+                        <a href="#">
+                            <div class="pic">
+                                <div class="pic-img">
+                                    <img src="img/sec07-item03.jpg" alt="">
+                                </div>
+                               <div class="pic-txt">
+                                <strong>SNS 영상광고</strong>
+                                <p>초저가·초고효율의 30초 <br>
+                                    영상광고 제작
+                                </p>
+                               </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sec07-item">
+                        <a href="#">
+                            <div class="pic">
+                                <div class="pic-img">
+                                    <img src="img/sec07-item04.jpg" alt="">
+                                </div>
+                               <div class="pic-txt">
+                                <strong>초격차 <br>홈페이지 제작</strong>
+                                <p>효과 없으면 환불하는 이상한 곳,<br>
+                                    <strong>국내 1위 전문직 마케팅 회사</strong>
+                                </p>
+                               </div>
+                            </div>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+      </section>
 
             <footer class="footer">
                 <div class="wrapper">
