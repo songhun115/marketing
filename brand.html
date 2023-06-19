@@ -8,16 +8,26 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/custom.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/front.js"></script>
+    <style id='global-styles-inline-css' type='text/css'>
+        body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+        .wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+        :where(.wp-block-columns.is-layout-flex){gap: 2em;}
+        .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+        </style>
 </head>
+
 <body>
-    <div class="main">
+    <div class="main scroll-container">
         <div class="container">
             <header class="header">
                 <div class="header-wrap">
@@ -59,12 +69,142 @@
                 </div>
                 
             </header>
-            <section class="sub-sec01 sub_visual">
-                <div class="sub-sec01-wrap">
-                    <h2>브랜딩 블로그</h2>
+          <section class="about-sec01 about-sec brand-bg">
+                <div class="about-sec01-wrap">
+                    <div class="about-sec01-txt">
+                        <h3 class="">블로그 브랜딩</h3>
+                        <h2>쉽고 효과는 확실한 <br>
+                             블로그 브랜딩을 소개합니다.
+                        </h2>
+                    </div>
+                    <a class="go-page" href="#about-sec02">비결이 궁금하다면?</a>
                 </div>
-            </section>
-        
+          </section>
+          <section class="brand-section01 section">
+            <div class="brand01-txt">
+            <h2>당신은 실력있고 유능한 보상전문가인가요?</h2>
+            <h3>그렇다면, 대표님은 사건 해결에만 집중하세요.</h3>
+            <p>영업은 저희가 대신 해드릴게요.</p>
+        </div>
+            <div class="brand-section01-img">
+                <img src="img/brand01-visual.png" alt="">
+            </div>
+          </section>
+          <section class="brand-section02 section">
+            <div class="brand02-wrap">
+            <div class="brand02-txt">
+                <h5>대표님들에게 </h5>
+                <h1>안타깝지만 대표님이 <strong>마케팅대행을</strong> 원하셔도 
+                    저희가 모두 진행해 드릴 수는 없습니다.  
+                    대표님이 생각하시는 <strong>마케팅방향</strong>과 저희의
+                    <strong>마케팅철학</strong>과 일치해야 하기 때문입니다. </h1>
+            </div>
+            <div class="brand02-title">
+                <p>“OOO 손해사정사님 상담 꼭 받고 싶습니다. 시간 가능하실 때 연락부탁드립니다.“</p>
+                <span>의뢰인에게 이런 요청이 올 수 있도록 해드리는 것을 목표로 합니다</span>
+            </div>
+            
+            <div class="brand02-send">
+                <a href="inquiry.html">블로그 마케팅 문의하기</a>
+            </div>
+            <p class="brand-dis">저희가 추구하는 브랜딩블로그 서비스는 상위노출을 목표로 하지 않습니다만, 아래 작성한 칼럼의 조회수를 참고하세요. </p>
+        </div>
+
+          </section>
+          <section class="brand-section04 section">
+            <div class="brand04-txt">
+                <h5>고객님의 진짜 후기</h5>
+                <h1>확실한 결과로 증명합니다.</h1>
+            </div>
+            <ul class="brand-review-list">
+                <li class="brand-review-item">
+                    <p>마케팅이 너무 잘 되는지 저희 재고보다 많이 주문 들어와서
+                        취소해야되고 그런일들이 생기네요
+                    </p>
+                    <div class="review-pic">
+                        <img src="img/brand-review01.png" alt="">
+                    </div>
+                </li>
+                <li class="brand-review-item">
+                    <p>마케팅이 너무 잘 되는지 저희 재고보다 많이 주문 들어와서
+                        취소해야되고 그런일들이 생기네요
+                    </p>
+                    <div class="review-pic">
+                        <img src="img/brand-review02.png" alt="">
+                    </div>
+                </li>
+                <li class="brand-review-item">
+                    <p>마케팅이 너무 잘 되는지 저희 재고보다 많이 주문 들어와서
+                        취소해야되고 그런일들이 생기네요
+                    </p>
+                    <div class="review-pic">
+                        <img src="img/brand-review03.png" alt="">
+                    </div>
+                </li>
+                <li class="brand-review-item">
+                    <p>마케팅이 너무 잘 되는지 저희 재고보다 많이 주문 들어와서
+                        취소해야되고 그런일들이 생기네요
+                    </p>
+                    <div class="review-pic">
+                        <img src="img/brand-review04.png" alt="">
+                    </div>
+                </li>
+                <li class="brand-review-item">
+                    <p>마케팅이 너무 잘 되는지 저희 재고보다 많이 주문 들어와서
+                        취소해야되고 그런일들이 생기네요
+                    </p>
+                    <div class="review-pic">
+                        <img src="img/brand-review05.png" alt="">
+                    </div>
+                </li>
+                <li class="brand-review-item">
+                    <p>마케팅이 너무 잘 되는지 저희 재고보다 많이 주문 들어와서
+                        취소해야되고 그런일들이 생기네요
+                    </p>
+                    <div class="review-pic">
+                        <img src="img/brand-review06.png" alt="">
+                    </div>
+                </li>
+                <li class="brand-review-item">
+                    <p>마케팅이 너무 잘 되는지 저희 재고보다 많이 주문 들어와서
+                        취소해야되고 그런일들이 생기네요
+                    </p>
+                    <div class="review-pic">
+                        <img src="img/brand-review07.png" alt="">
+                    </div>
+                </li>
+                <li class="brand-review-item">
+                    <p>마케팅이 너무 잘 되는지 저희 재고보다 많이 주문 들어와서
+                        취소해야되고 그런일들이 생기네요
+                    </p>
+                    <div class="review-pic">
+                        <img src="img/brand-review08.png" alt="">
+                    </div>
+                </li>
+            </ul>
+            <div class="brand04-tit">
+                <h5>운영중인 블로그 글</h5>
+                <h2>블로그 리뷰</h2>
+                <div class="brand-blog-list">
+                    <div class="brand-blog-item">
+                        <p>후유장애 질문리스트1</p>
+                        <img src="img/brand-blog-review01.png" alt="">
+                    </div>
+                    <div class="brand-blog-item">
+                        <p>후유장애 질문리스트2</p>
+                        <img src="img/brand-blog-review02.png" alt="">
+                    </div>
+                    <div class="brand-blog-item">
+                        <p>암진단금 질문리스트1</p>
+                        <img src="img/brand-blog-review03.png" alt="">
+                    </div>
+                    <div class="brand-blog-item">
+                        <p>암진단금 질문리스트2</p>
+                        <img src="img/brand-blog-review04.png" alt="">
+                    </div>
+                </div>
+            </div>
+          </section>
 
             <footer class="footer">
                 <div class="wrapper">
@@ -77,11 +217,10 @@
                                 <p>Explore</p>
 
                                 <div class="link">
-                                    <a href="#">채용</a>
-                                    <a href="#" target="_blank" title="새창">블로그</a>
-                                    <a href="#" target="_blank" title="새창">인스타그램</a>
-                                    <a href="#" target="_blank" title="새창">유튜브</a>
-                                    <a href="#" target="_blank" title="새창">브런치</a>
+                                    
+                                    <a href="https://blog.naver.com/rudqo9510" target="_blank" title="새창">블로그</a>
+                                    <a href="https://www.youtube.com/@chakhansonsa" target="_blank" title="새창">유튜브</a>
+
                                 </div>
                             </li>
                         </ul>
@@ -91,11 +230,9 @@
     
                     <address>
                         <span>
-                        서울특별시 강남구 도산대로 207, 성도빌딩 12층 | 채용문의 : people@isanghan.co.kr<br>대표자 : 송명진 / 사업자등록번호: 547-86-01180 |<br class="mo-br">통신판매업 신고번호 : 2020-서울강남-02071
-                        <br><span>  Copyright ⓒ 2022 Isanghan Marketing Co., Ltd. All rights reserved.</span>
+                            세종특별자치시 한누리대로 157, 305호 | 메일 : worship41@naver.com<br>대표자 : 박경배 / 사업자등록번호: 349-04-02594 |<br class="mo-br">Tel : 044-417-6702
+                            <br><span>  Copyright ⓒ 2022 claim moment  Co., Ltd. All rights reserved.</span>
                     </span></address>
-    
-    
                 </div>
             </footer>
         </div>

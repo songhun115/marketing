@@ -28,6 +28,7 @@ strong{background-color: #3272E9; color: #fff;}
 
 .header-wrap.on .logo-white{display: none;}
 .header-wrap.on .logo-black{display: block; position: relative; z-index: 1111;}
+.mr-bot{margin-bottom: 20px;}
 @media(max-width:1240px){
 
 }
@@ -50,4 +51,5 @@ strong{background-color: #3272E9; color: #fff;}
     .header{padding: 10px 0;}
 
 }
+
 
