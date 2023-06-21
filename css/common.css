@@ -25,7 +25,7 @@ strong{background-color: #3272E9; color: #fff;}
 
 .header-wrap.on .menu-ico01{display: none;}
 .header-wrap.on .menu-ico02{display: block;}
-
+.mr-b{margin-bottom: 20px;}
 .header-wrap.on .logo-white{display: none;}
 .header-wrap.on .logo-black{display: block; position: relative; z-index: 1111;}
 .mr-bot{margin-bottom: 20px;}
@@ -34,6 +34,7 @@ strong{background-color: #3272E9; color: #fff;}
 }
 
 @media(max-width:980px){
+    .mr-b{margin-bottom: 10px;}
     .header.on .menu-ico01{display: none;}
     .header.on .menu-ico02{display: block;}
     .header-wrap{padding: 0 20px;}
@@ -42,7 +43,7 @@ strong{background-color: #3272E9; color: #fff;}
     h3{font-size: 16px;}
     .menu-ico01{display: block;}
     .menu-ico02{display: none;}
-    .header-list{display: block;position: fixed;z-index: 1;left: 100%;top: 0;width: 100%;\height: 100%;margin: 0;padding-top: 70px;background: #fff;transition: all .5s ease;}
+    .header-list{display: block;position: fixed;z-index: 1;left: 100%;top: 0;width: 100%;height: 100%;margin: 0;padding-top: 70px;background: #fff;transition: all .5s ease;}
     .header-list.show{left: 0;}
     .header-item  a {color: #000;}
     .header-item{padding: 18px 30px; border-bottom: 1px solid #e0e0e0;}
