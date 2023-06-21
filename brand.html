@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="css/animate.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/custom.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
@@ -29,51 +29,13 @@
 <body>
     <div class="main scroll-container">
         <div class="container">
-            <header class="header">
-                <div class="header-wrap">
-                    <div class="header-logo">
-                        <div class="logo">
-                            <a href="index.html">
-                                <a href="index.html">
-                                    <img class="logo-white" src="img/logo.svg" alt="">
-                                    <img class="logo-black" src="img/logo-black.svg" alt="">
-                                </a>
-                            </a>
-                        </div>
-                    </div>
-                    <nav class="nav">
-                        <div class="mb-menu">
-                            <img class="menu-ico01 menu-ico" src="img/menu-ico01.png" alt="">
-                            <img class="menu-ico02 menu-ico" src="img/menu-ico02.png" alt="">
-                        </div>
-                        <ul class="header-list">
-                            <li class="header-item">
-                                <a href="about.html">회사소개</a>
-                            </li>
-                            <li class="header-item">
-                                <a href="brand.html">브랜딩 블로그</a>
-                            </li>
-                            <li class="header-item">
-                                <a href="youtube.html">유튜브 영상제작</a>
-                            </li>
-                            <li class="header-item">
-                                <a href="column.html">마케팅 칼럼</a>
-                            </li>
-                            <li class="header-item">
-                                <a href="inquiry.html">문의하기</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    
-                    
-                </div>
-                
-            </header>
+            <header class="header" id="header"></header>
+            
           <section class="about-sec01 about-sec brand-bg">
                 <div class="about-sec01-wrap">
                     <div class="about-sec01-txt">
-                        <h3 class="">블로그 브랜딩</h3>
-                        <h2>쉽고 효과는 확실한 <br>
+                        <h3 class="wow fadeInUp">블로그 브랜딩</h3>
+                        <h2 class=" wow fadeInUp">쉽고 효과는 확실한 <br>
                              블로그 브랜딩을 소개합니다.
                         </h2>
                     </div>
@@ -82,9 +44,9 @@
           </section>
           <section class="brand-section01 section">
             <div class="brand01-txt">
-            <h2>당신은 실력있고 유능한 보상전문가인가요?</h2>
-            <h3>그렇다면, 대표님은 사건 해결에만 집중하세요.</h3>
-            <p>영업은 저희가 대신 해드릴게요.</p>
+            <h2 class="wow fadeInUp"data-wow-delay="0.5">당신은 실력있고 유능한 보상전문가인가요?</h2>
+            <h3 class="wow fadeInUp"data-wow-delay="1">그렇다면, 대표님은 사건 해결에만 집중하세요.</h3>
+            <p class="wow fadeInUp"data-wow-delay="1.5">영업은 저희가 대신 해드릴게요.</p>
         </div>
             <div class="brand-section01-img">
                 <img src="img/brand01-visual.png" alt="">
@@ -93,21 +55,21 @@
           <section class="brand-section02 section">
             <div class="brand02-wrap">
             <div class="brand02-txt">
-                <h5>대표님들에게 </h5>
-                <h1>안타깝지만 대표님이 <strong>마케팅대행을</strong> 원하셔도 
+                <h5 class="wow fadeInUp"data-wow-delay="0.5">대표님들에게 </h5>
+                <h1 class="wow fadeInUp"data-wow-delay="1">안타깝지만 대표님이 <strong>마케팅대행을</strong> 원하셔도 
                     저희가 모두 진행해 드릴 수는 없습니다.  
                     대표님이 생각하시는 <strong>마케팅방향</strong>과 저희의
                     <strong>마케팅철학</strong>과 일치해야 하기 때문입니다. </h1>
             </div>
             <div class="brand02-title">
-                <p>“OOO 손해사정사님 상담 꼭 받고 싶습니다. 시간 가능하실 때 연락부탁드립니다.“</p>
-                <span>의뢰인에게 이런 요청이 올 수 있도록 해드리는 것을 목표로 합니다</span>
+                <p class="wow fadeInUp"data-wow-delay="1.5">“OOO 손해사정사님 상담 꼭 받고 싶습니다. 시간 가능하실 때 연락부탁드립니다.“</p>
+                <span class="wow fadeInUp"data-wow-delay="2">의뢰인에게 이런 요청이 올 수 있도록 해드리는 것을 목표로 합니다</span>
             </div>
-            
-            <div class="brand02-send">
+        
+            <div class="brand02-send wow fadeInUp"data-wow-delay="2">
                 <a href="inquiry.html">블로그 마케팅 문의하기</a>
             </div>
-            <p class="brand-dis">저희가 추구하는 브랜딩블로그 서비스는 상위노출을 목표로 하지 않습니다만, 아래 작성한 칼럼의 조회수를 참고하세요. </p>
+            <p class="brand-dis wow fadeInUp"data-wow-delay="2" >저희가 추구하는 브랜딩블로그 서비스는 상위노출을 목표로 하지 않습니다만, 아래 작성한 칼럼의 조회수를 참고하세요. </p>
         </div>
 
           </section>
@@ -117,7 +79,7 @@
                 <h1>확실한 결과로 증명합니다.</h1>
             </div>
             <ul class="brand-review-list">
-                <li class="brand-review-item">
+                <li class="brand-review-item wow fadeInUp"data-wow-delay="0.5" >
                     <p>마케팅이 너무 잘 되는지 저희 재고보다 많이 주문 들어와서
                         취소해야되고 그런일들이 생기네요
                     </p>
@@ -125,7 +87,7 @@
                         <img src="img/brand-review01.png" alt="">
                     </div>
                 </li>
-                <li class="brand-review-item">
+                <li class="brand-review-item wow fadeInUp"data-wow-delay="1" >
                     <p>마케팅이 너무 잘 되는지 저희 재고보다 많이 주문 들어와서
                         취소해야되고 그런일들이 생기네요
                     </p>
@@ -133,7 +95,7 @@
                         <img src="img/brand-review02.png" alt="">
                     </div>
                 </li>
-                <li class="brand-review-item">
+                <li class="brand-review-item wow fadeInUp"data-wow-delay="1.5" >
                     <p>마케팅이 너무 잘 되는지 저희 재고보다 많이 주문 들어와서
                         취소해야되고 그런일들이 생기네요
                     </p>
@@ -141,7 +103,7 @@
                         <img src="img/brand-review03.png" alt="">
                     </div>
                 </li>
-                <li class="brand-review-item">
+                <li class="brand-review-item wow fadeInUp"data-wow-delay="2" >
                     <p>마케팅이 너무 잘 되는지 저희 재고보다 많이 주문 들어와서
                         취소해야되고 그런일들이 생기네요
                     </p>
@@ -149,7 +111,7 @@
                         <img src="img/brand-review04.png" alt="">
                     </div>
                 </li>
-                <li class="brand-review-item">
+                <li class="brand-review-item wow fadeInUp"data-wow-delay="2.5" >
                     <p>마케팅이 너무 잘 되는지 저희 재고보다 많이 주문 들어와서
                         취소해야되고 그런일들이 생기네요
                     </p>
@@ -157,7 +119,7 @@
                         <img src="img/brand-review05.png" alt="">
                     </div>
                 </li>
-                <li class="brand-review-item">
+                <li class="brand-review-item wow fadeInUp"data-wow-delay="3" >
                     <p>마케팅이 너무 잘 되는지 저희 재고보다 많이 주문 들어와서
                         취소해야되고 그런일들이 생기네요
                     </p>
@@ -165,7 +127,7 @@
                         <img src="img/brand-review06.png" alt="">
                     </div>
                 </li>
-                <li class="brand-review-item">
+                <li class="brand-review-item wow fadeInUp"data-wow-delay="3.5" >
                     <p>마케팅이 너무 잘 되는지 저희 재고보다 많이 주문 들어와서
                         취소해야되고 그런일들이 생기네요
                     </p>
@@ -173,7 +135,7 @@
                         <img src="img/brand-review07.png" alt="">
                     </div>
                 </li>
-                <li class="brand-review-item">
+                <li class="brand-review-item wow fadeInUp"data-wow-delay="4" >
                     <p>마케팅이 너무 잘 되는지 저희 재고보다 많이 주문 들어와서
                         취소해야되고 그런일들이 생기네요
                     </p>
@@ -186,55 +148,36 @@
                 <h5>운영중인 블로그 글</h5>
                 <h2>블로그 리뷰</h2>
                 <div class="brand-blog-list">
-                    <div class="brand-blog-item">
+                    <div class="brand-blog-item wow fadeInUp"data-wow-delay="1" >
                         <p>후유장애 질문리스트1</p>
                         <img src="img/brand-blog-review01.png" alt="">
                     </div>
-                    <div class="brand-blog-item">
+                    <div class="brand-blog-item wow fadeInUp"data-wow-delay="1.5" >
                         <p>후유장애 질문리스트2</p>
                         <img src="img/brand-blog-review02.png" alt="">
                     </div>
-                    <div class="brand-blog-item">
+                    <div class="brand-blog-item wow fadeInUp"data-wow-delay="2" >
                         <p>암진단금 질문리스트1</p>
                         <img src="img/brand-blog-review03.png" alt="">
                     </div>
-                    <div class="brand-blog-item">
+                    <div class="brand-blog-item wow fadeInUp"data-wow-delay="2.5" >
                         <p>암진단금 질문리스트2</p>
                         <img src="img/brand-blog-review04.png" alt="">
                     </div>
                 </div>
             </div>
           </section>
+          <footer class="footer" id="footer"></footer>
+           
 
-            <footer class="footer">
-                <div class="wrapper">
-                    <div class="foot_info">
-                        <p class="btm_logo"><img src="img/logo.svg" alt="이상한마케팅"></p>
-                        <!--<p class="talk">“그 땐 몰랐죠. <br>클릭 한번으로 이렇게 높아질 줄.” <br>- 매출 </p>-->
-                        <div class="foot_link">
-                        <ul>
-                            <li>
-                                <p>Explore</p>
+          <script type="text/javascript">
 
-                                <div class="link">
-                                    
-                                    <a href="https://blog.naver.com/rudqo9510" target="_blank" title="새창">블로그</a>
-                                    <a href="https://www.youtube.com/@chakhansonsa" target="_blank" title="새창">유튜브</a>
-
-                                </div>
-                            </li>
-                        </ul>
-                        </div>
-                    </div>
-    
-    
-                    <address>
-                        <span>
-                            세종특별자치시 한누리대로 157, 305호 | 메일 : worship41@naver.com<br>대표자 : 박경배 / 사업자등록번호: 349-04-02594 |<br class="mo-br">Tel : 044-417-6702
-                            <br><span>  Copyright ⓒ 2022 claim moment  Co., Ltd. All rights reserved.</span>
-                    </span></address>
-                </div>
-            </footer>
+              $(document).ready(function(){
+                  $("#header").load("load/header.html");
+                  $("#footer").load("load/footer.html");
+              });
+          
+          </script>
         </div>
     </div>
 </body>

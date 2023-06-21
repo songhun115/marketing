@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="css/animate.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/custom.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
@@ -28,51 +28,13 @@
 <body>
     <div class="main scroll-container">
         <div class="container">
-            <header class="header">
-                <div class="header-wrap">
-                    <div class="header-logo">
-                        <div class="logo">
-                            <a href="index.html">
-                                <a href="index.html">
-                                    <img class="logo-white" src="img/logo.svg" alt="">
-                                    <img class="logo-black" src="img/logo-black.svg" alt="">
-                                </a>
-                            </a>
-                        </div>
-                    </div>
-                    <nav class="nav">
-                        <div class="mb-menu">
-                            <img class="menu-ico01 menu-ico" src="img/menu-ico01.png" alt="">
-                            <img class="menu-ico02 menu-ico" src="img/menu-ico02.png" alt="">
-                        </div>
-                        <ul class="header-list">
-                            <li class="header-item">
-                                <a href="about.html">회사소개</a>
-                            </li>
-                            <li class="header-item">
-                                <a href="brand.html">브랜딩 블로그</a>
-                            </li>
-                            <li class="header-item">
-                                <a href="youtube.html">유튜브 영상제작</a>
-                            </li>
-                            <li class="header-item">
-                                <a href="column.html">마케팅 칼럼</a>
-                            </li>
-                            <li class="header-item">
-                                <a href="inquiry.html">문의하기</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    
-                    
-                </div>
-                
-            </header>
+            <header class="header" id="header"></header>
+            
           <section class="about-sec01 about-sec">
                 <div class="about-sec01-wrap">
                     <div class="about-sec01-txt">
-                        <h3>여긴 뭐야?</h3>
-                        <h2>‘클레임모먼트’는 <br>
+                        <h3 class="wow fadeInUp" >여긴 뭐야?</h3>
+                        <h2 class="wow fadeInUp" >‘클레임모먼트’는 <br>
                              국내 유일의 손해사정사 전문 마케팅 회사입니다. 
                         </h2>
                         
@@ -84,8 +46,8 @@
             <div class="about-sec02-wrap">
                 <div class="about-sec02-tit">
                      
-                <p>저희 회사.</p>
-                <p> <strong>회사명 ‘클레임모먼트(Claim Moment)’ 는. <br>
+                <p  class="wow fadeInUp"data-wow-delay="0.5">저희 회사.</p>
+                <p class="wow fadeInUp"data-wow-delay="1"> <strong>회사명 ‘클레임모먼트(Claim Moment)’ 는. <br>
                     손해사정사(Claim Adjuster)가 <br> 필요한 순간(Moment)’ 이란 의미를 지니고 있습니다
                 </strong></p>
             </div>
@@ -93,15 +55,15 @@
                     <img src="img/about-sec02-img.jpg" alt="">
                 </div>
                 <div class="about-txt-box">
-                    <p> <strong> 저희 마케팅회사는 광고같은 건 하지 않습니다. </strong></p>
-                    <p>대신 보상전문가인 손해사정사가 왜 필요한지,  <br>
+                    <p class="wow fadeInUp"data-wow-delay="0.5"></p>> <strong> 저희 마케팅회사는 광고같은 건 하지 않습니다. </strong></p>
+                    <p class="wow fadeInUp"data-wow-delay="1">대신 보상전문가인 손해사정사가 왜 필요한지,  <br>
                         왜 손해사정사님을 선택해야 하는지 본질적인 가치를 담아내는 것을 추구합니다.<br>
                         손해사정사님의 이름 석자를 브랜딩하여 <br>
                         해당 분야에서 최고의 전문가로 인식하게 만들어 드립니다.<br>
                         <br>
                     </p>
-                    <p><strong class="about-strong mr-bot"> ‘의뢰인이 손해사정사를 믿고 신뢰하여 문의가 오게 하는 것‘</strong></p>
-                    <p><strong class="about-strong mr-bot"> 이것이 ‘클레임모먼트’가 하는 일입니다.</strong></p>
+                    <p><strong class="about-strong mr-bot wow fadeInUp"data-wow-delay="1"> ‘의뢰인이 손해사정사를 믿고 신뢰하여 문의가 오게 하는 것‘</strong></p>
+                    <p><strong class="about-strong mr-bot wow fadeInUp"data-wow-delay="1"> 이것이 ‘클레임모먼트’가 하는 일입니다.</strong></p>
                          
                 </div>
                 <!-- <div class="about-txt-box02">
@@ -113,13 +75,13 @@
       </section>
       <section class="about-sec03 about-sec">
         <div class="about-sec03-wrap">
-        <h3>어느순간 깨달았습니다.</h3>
-        <p>손해사정사의 고민을 담았습니다. <br>
+        <h3 class="wow fadeInUp"data-wow-delay="0.6">어느순간 깨달았습니다.</h3>
+        <p class="wow fadeInUp"data-wow-delay="1">손해사정사의 고민을 담았습니다. <br>
             어떻게하면 고객이 나를 믿고 찾아 줄 수 있을까?</p>
            
-        <p>저희는 이렇게 생각했습니다.</p>
+        <p class="wow fadeInUp"data-wow-delay="1.4">저희는 이렇게 생각했습니다.</p>
         
-        <p>보상전문가인 손해사정사가 왜 필요한지,<br>
+        <p class="wow fadeInUp"data-wow-delay="1.8">보상전문가인 손해사정사가 왜 필요한지,<br>
             왜 나라는 손해사정사를 선택해야하는지,<br>
             이에 대한 해답으로 손해사정사를 믿고 신뢰하며,<br>  
             손해사정 분야의 최고 전문가로 인식하게 도와드리면 되겠다!
@@ -128,10 +90,10 @@
         <!-- <p>그 당시 웹사이트 제작 회사를 찾는게 너무 어려웠고,
             저가형의 효율 좋은 영상 제작을 하는 회사도 찾기 어려웠습니다.</p> -->
             <br>
-            <p class="background-txt background-txt01">
+            <p class="background-txt background-txt01 wow fadeInUp"data-wow-delay="2">
                 <img src="img/about-background-txt01.svg" alt="">
             </p>
-            <p class="background-txt background-txt02">
+            <p class="background-txt background-txt02 wow fadeInUp"data-wow-delay="2">
                 <img src="img/about-background-txt02.svg" alt="">
             </p>
             
@@ -139,15 +101,15 @@
       </section>
       <section class="about-sec04 about-sec">
         <div class="about-sec04-wrap">
-            <h3>처음부터 순탄했던건 아닙니다.</h3>
-            <p>문제도 있었고, 마케팅으로 수익이 높은 사업이 아니었습니다. <br>
+            <h3 class="wow fadeInUp"data-wow-delay="1"> 처음부터 순탄했던건 아닙니다.</h3>
+            <p class="wow fadeInUp"data-wow-delay="1.5">문제도 있었고, 마케팅으로 수익이 높은 사업이 아니었습니다. <br>
                 <br>
                 하지만 하나씩 문제를 해결해 나가기 시작했고, <strong>이득을 몇 배로 돌려줄 수 있는 마케팅 회사</strong>로 발돋움 했습니다.
             </p>
             
-            <p>클레임모먼트의 구성원은 경력 10년 이상의 현직 손해사정사로 온라인마케팅(브랜딩블로그)을 <br>
+            <p class="wow fadeInUp"data-wow-delay="2">클레임모먼트의 구성원은 경력 10년 이상의 현직 손해사정사로 온라인마케팅(브랜딩블로그)을 <br>
                 공략하여 손해사정시장에 단기간내 자리잡은 비결을 갖고 있습니다.<br>
-                <strong class="under-line">손해사정 분쟁의 모든 쟁점을 꿰뚫고 있는 전문가가 마케팅을 대행해주는 회사, 여러분은 상상이 가시나요? </strong></p>
+                <strong class="under-line wow fadeInUp"data-wow-delay="2">손해사정 분쟁의 모든 쟁점을 꿰뚫고 있는 전문가가 마케팅을 대행해주는 회사, 여러분은 상상이 가시나요? </strong></p>
                 <br>
 
 
@@ -180,7 +142,7 @@
         </div>
       </section>
       <section class="about-sec05 about-sec">
-            <div class="sec07-wrap">
+            <div class="sec07-wrap wow fadeInUp"data-wow-delay="2">
                 <h3>서비스 소개</h3>
                 <h1>어떤 서비스가 필요하세요?</h1>
                 <ul class="sec07-list">
@@ -250,35 +212,17 @@
             
       </section>
 
-            <footer class="footer">
-                <div class="wrapper">
-                    <div class="foot_info">
-                        <p class="btm_logo"><img src="img/logo.svg" alt="이상한마케팅"></p>
-                        <!--<p class="talk">“그 땐 몰랐죠. <br>클릭 한번으로 이렇게 높아질 줄.” <br>- 매출 </p>-->
-                        <div class="foot_link">
-                        <ul>
-                            <li>
-                                <p>Explore</p>
+      <footer class="footer" id="footer"></footer>
+           
 
-                                <div class="link">
-                                    
-                                    <a href="https://blog.naver.com/rudqo9510" target="_blank" title="새창">블로그</a>
-                                    <a href="https://www.youtube.com/@chakhansonsa" target="_blank" title="새창">유튜브</a>
+      <script type="text/javascript">
 
-                                </div>
-                            </li>
-                        </ul>
-                        </div>
-                    </div>
-    
-    
-                    <address>
-                        <span>
-                            세종특별자치시 한누리대로 157, 305호 | 메일 : worship41@naver.com<br>대표자 : 박경배 / 사업자등록번호: 349-04-02594 |<br class="mo-br">Tel : 044-417-6702
-                            <br><span>  Copyright ⓒ 2022 claim moment  Co., Ltd. All rights reserved.</span>
-                    </span></address>
-                </div>
-            </footer>
+          $(document).ready(function(){
+              $("#header").load("load/header.html");
+              $("#footer").load("load/footer.html");
+          });
+      
+      </script>
         </div>
     </div>
 </body>

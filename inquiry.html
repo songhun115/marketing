@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/animate.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
@@ -22,53 +22,20 @@
 <body>
     <div class="main">
         <div class="container">
-            <header class="header">
-                <div class="header-wrap">
-                    <div class="header-logo">
-                        <div class="logo">
-                            <a href="index.html">
-                                <a href="index.html">
-                                    <img class="logo-white" src="img/logo.svg" alt="">
-                                    <img class="logo-black" src="img/logo-black.svg" alt="">
-                                </a>
-                            </a>
-                        </div>
-                    </div>
-                    <nav class="nav">
-                        <div class="mb-menu">
-                            <img class="menu-ico01 menu-ico" src="img/menu-ico01.png" alt="">
-                            <img class="menu-ico02 menu-ico" src="img/menu-ico02.png" alt="">
-                        </div>
-                        <ul class="header-list">
-                            <li class="header-item">
-                                <a href="about.html">회사소개</a>
-                            </li>
-                            <li class="header-item">
-                                <a href="brand.html">브랜딩 블로그</a>
-                            </li>
-                            <li class="header-item">
-                                <a href="youtube.html">유튜브 영상제작</a>
-                            </li>
-                            <li class="header-item">
-                                <a href="column.html">마케팅 칼럼</a>
-                            </li>
-                            <li class="header-item">
-                                <a href="inquiry.html">문의하기</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    
-                    
-                </div>
-                
-            </header>
+            <header class="header" id="header"></header>
+            
             <section class="sub-sec01 sub_visual">
                 <div class="sub-sec01-wrap">
-                    <h2>문의하기</h2>
+                    <h2 class="wow fadeInUp" >문의하기</h2>
                 </div>
             </section>
-            <section class="inquiry-wrap">
+            <section class="inquiry-wrap wow fadeInUp">
+                <div class="inquiry-con">
+                <div class="mail-img">
+                    <img src="img/mail-img.png" alt="">
+                </div>
                 <div class="inquiry-box">
+                    <h3>부담없이, 문의주세요</h3>
                     <p>성급하게 문의하실 필요 없습니다. <br>
                         적어도 30분 정도 웹사이트를 둘러보시면서 어떤 곳인지 신중히 알아보실 것을 권합니다.<br>
                         <strong> 문의 내용은 최대한 구체적으로 작성해 주실수록, 더욱 정확한 안내를 받아보실 수 있습니다.</strong><br>
@@ -79,38 +46,21 @@
 
                         <p style="margin-top: 50px;">E-mail : test001@gamil.com</p>
                 </div>
+            </div>
             </section>
+          
         
+            <footer class="footer" id="footer"></footer>
+           
 
-            <footer class="footer">
-                <div class="wrapper">
-                    <div class="foot_info">
-                        <p class="btm_logo"><img src="img/logo.svg" alt="이상한마케팅"></p>
-                        <!--<p class="talk">“그 땐 몰랐죠. <br>클릭 한번으로 이렇게 높아질 줄.” <br>- 매출 </p>-->
-                        <div class="foot_link">
-                        <ul>
-                            <li>
-                                <p>Explore</p>
+            <script type="text/javascript">
 
-                                <div class="link">
-                                    
-                                    <a href="https://blog.naver.com/rudqo9510" target="_blank" title="새창">블로그</a>
-                                    <a href="https://www.youtube.com/@chakhansonsa" target="_blank" title="새창">유튜브</a>
-
-                                </div>
-                            </li>
-                        </ul>
-                        </div>
-                    </div>
-    
-    
-                    <address>
-                        <span>
-                            세종특별자치시 한누리대로 157, 305호 | 메일 : worship41@naver.com<br>대표자 : 박경배 / 사업자등록번호: 349-04-02594 |<br class="mo-br">Tel : 044-417-6702
-                            <br><span>  Copyright ⓒ 2022 claim moment  Co., Ltd. All rights reserved.</span>
-                    </span></address>
-                </div>
-            </footer>
+                $(document).ready(function(){
+                    $("#header").load("load/header.html");
+                    $("#footer").load("load/footer.html");
+                });
+            
+            </script>
         </div>
     </div>
 </body>
