@@ -365,9 +365,8 @@ address span{color: #C8C8C8; font-size: 12px; line-height: 24px;}
 @media(max-width:768px){
     .mail-img img{border-radius: 10px 10px 0 0;}
     .inquiry-con-box{flex-direction: column;}
-    .inquiry-box{padding: 30px 20px; box-sizing: border-box; font-size: 14px; margin-left: 0; border-radius: 0 0 10px 10px;}
+    .inquiry-box{padding: 0; box-sizing: border-box; font-size: 14px; margin-left: 0; border-radius: 0 0 10px 10px;}
 }
-
 
 /*! brand marketing*/
 .brand-bg{background-image: url(../img/brand-visual.png) !important;}
@@ -375,7 +374,7 @@ address span{color: #C8C8C8; font-size: 12px; line-height: 24px;}
 .brand-section01 h2,.brand-section01 h3{color: #333; margin: 20px 0;}
 .brand-section01 p{color: #555; font-size: 22px; margin: 30px 0;}
 .brand01-txt{position: relative;padding-bottom: 50px;}
-.brand01-txt span{color: #1758C3; font-weight: 500;}
+.brand01-txt span{color: #1758C3; font-weight: 600; font-size: 24px;}
 .brand01-txt::before{content: '';position: absolute;z-index: -1;top: -36px;left: -45px;width: 90px;height: 71px;background: url(../img/about-sec002.svg) no-repeat;background-size: contain;}
 .brand02-txt h5, .brand04-tit h5, .brand04-txt h5 {margin-bottom: 30px; color: #1758C3; font-weight: 800; font-size: 20px;}
 .brand04-txt{text-align: center; color: #333; margin: 60px 0;}
@@ -587,7 +586,8 @@ address span{color: #C8C8C8; font-size: 12px; line-height: 24px;}
     .mb-br{display: none;}
     .about-txt-box h3{margin-bottom: 20px;}
     .about-sec02-wrap p strong, .about-sec02-wrap p{font-size: 14px; color: #555;}
-    .about-sec02-tit > p strong{font-size: 30px; text-decoration: underline;}
+    .about-sec02-tit > p strong{font-size: 22px; text-decoration: underline;}
+    .em em{}
 }
 
 /*! about sec03*/
@@ -656,6 +656,8 @@ address span{color: #C8C8C8; font-size: 12px; line-height: 24px;}
      .about-video-wrap .video-box{width: 100%;}
      .about-video-wrap .video-box iframe{height: 200px;}
      .about-sec04-wrap p{font-size: 14px;}
+     .em em{background-color: transparent; color: #555;}
+     .about-sec02-tit > p strong{text-decoration: none;}
 }
 
 /*! new sec01*/
@@ -664,3 +666,4 @@ address span{color: #C8C8C8; font-size: 12px; line-height: 24px;}
 .new-sec01-wrap-box h3, .new-sec01-wrap-box p {color: #fff;}
 .new-sec01-wrap-box h3{padding: 30px 0; color: #7d92de;}
 .new-sec01-wrap-box p{padding: 30px 0; line-height: 1.4; font-size: 18px; font-weight: 500;}
+.about-sec033{padding: 0 0 100px 0;}
